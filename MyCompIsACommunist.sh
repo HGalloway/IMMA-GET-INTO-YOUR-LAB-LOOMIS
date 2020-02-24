@@ -9,7 +9,8 @@ do
   #cd beep
   #make install
   #LEARN HOW TO USE AT
-  ssh cyberpatriots@10.27.5.$num 'apt install at' #set up at job that executes SNA in one minute after execution of script and set up beep also.
+  ssh cyberpatriots@10.27.5.$num 'apt install at' at -m 13:20 today < it.txt
+  #set up at job that executes SNA in one minute after execution of script and set up beep also.
   #at minute beep sna echo phrase
   
   
